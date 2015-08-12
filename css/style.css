@@ -2,3 +2,8 @@
   margin-top: 20px;
   display: inline-block;
 }
+
+.active {
+  background: pink;
+  border-radius: 5px;
+}

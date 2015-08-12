@@ -1,5 +1,5 @@
-(function () {
-  var app = angular.module('store', []);
+var app = app || {}
+ app = angular.module('store', []);
 
   app.controller('StoreController', function () {
   var gems = [
@@ -48,4 +48,3 @@
   ];
     this.products = gems;
   });
-})();
