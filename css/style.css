@@ -13,3 +13,19 @@
   float: left;
   margin-left: 25px;
 }
+
+.ng-invalid.ng-dirty {
+  border: 2px solid red;
+}
+
+.ng-valid.ng-dirty {
+  border: 2px solid green;
+}
+
+form.ng-dirty {
+  border: none !important;
+}
+
+.ng-touched {
+  border: none !important;
+}
