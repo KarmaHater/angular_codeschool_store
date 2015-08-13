@@ -7,3 +7,9 @@
   background: pink;
   border-radius: 5px;
 }
+
+
+.list-group {
+  float: left;
+  margin-left: 25px;
+}
